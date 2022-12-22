@@ -1,0 +1,13 @@
+.change_value{
+    border:2px solid rgb(78, 75, 75);
+    border-radius: 4px;
+    width: 60px;
+    height: 20px;
+  }
+  .container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
