@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <script src="main2.js" defer></script>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div id="container">
+        <div class="num">Number1: <input type="number" id="num1"></div> 
+        <div class="num">Number2: <input type="number" id="num2"></div> 
+        <div class="buttons">
+            <input type="button" onclick="func_add()" value="+" class="button">
+            <input type="button" onclick="func_subtract()" value="-" class="button">
+            <input type="button" onclick="func_multiply()" value="*" class="button">
+            <input type="button" onclick="func_divide()" value="/" class="button">
+        </div>
+        <div class="res"> Result: <span id="result"></span> </div>
+    </div>
+
+
+    
+</body>
+</html>
