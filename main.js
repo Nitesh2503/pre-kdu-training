@@ -1,28 +1,15 @@
-// Select increment and decrement buttons
 const incrementCount = document.getElementById("increment-value");
 const decrementCount = document.getElementById("decrement-value");
-
-// Select total count
 const totalCount = document.getElementById("total-count");
-
-// Variable to track count
 var count = 0;
-
-// Display initial count value
 totalCount.innerHTML = count;
-
-// Function to increment count
-const handleIncrement = () => {
+const Func_Increment = () => {
   count++;
   totalCount.innerHTML = count;
 };
-
-// Function to decrement count
-const handleDecrement = () => {
+const Func_Decrement = () => {
   count--;
   totalCount.innerHTML = count;
 };
-
-// Add click event to buttons
-incrementCount.addEventListener("click", handleIncrement);
-decrementCount.addEventListener("click", handleDecrement);
+incrementCount.addEventListener("click", Func_Increment);
+decrementCount.addEventListener("click", Func_Decrement);
