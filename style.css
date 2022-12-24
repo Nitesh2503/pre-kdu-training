@@ -1,0 +1,103 @@
+#my_image{
+    height: 100px;
+    width:100px;
+    border:6px solid rgb(255, 255, 255);
+    border-radius: 120px;
+}
+
+h1{
+    position: relative;
+    display:inline-block;
+    margin: auto;
+    bottom: 45px;
+}
+
+#head{
+    text-align: center;
+}
+
+#about{
+    text-align: justify;
+}
+
+table,th,td{
+    border:2px solid black;
+    /* text-align: center; */
+}
+
+th{
+    background-color: rgb(109, 108, 108);
+    color: white;
+}
+td{
+    background-color: rgb(191, 191, 191);
+}
+
+#skills{
+    text-align: justify;
+}
+
+#projects h3{
+    font-size: x-large;
+    text-decoration: underline;
+}
+#qualification{
+    position:inherit;
+    
+}
+#qualification p{
+    font-size: x-large;
+    font-weight: 700;
+    text-decoration: underline;
+}
+#qualification tr {
+    text-align: center;
+}
+#qualification td{
+    text-align: left;
+}
+#skills div{
+   position: relative;
+   left:20px;
+   text-decoration: underline;
+}
+#projects{
+    text-align: center;
+}
+
+#projects p{
+    font-weight: bolder;
+}
+
+#projects img{
+    border-radius: 20px;
+    width: 300px;
+    height:200px;
+}
+
+#projects div{
+    display:inline-block;
+    margin-left:90px;
+    margin-right:90px;
+}
+
+#more{
+    text-align: center;
+}
+
+#more p{
+font-size: larger;
+font-weight: bolder;
+}
+
+#more img{
+    width:28px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 6px;
+}
+
+body{
+    background-color: rgb(62, 78, 136);
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(124, 124, 124));
+}
